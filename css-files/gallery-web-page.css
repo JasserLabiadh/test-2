@@ -1,0 +1,53 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(255,255,255).
+}
+html{
+    background-color: rgba(20, 24, 74,0.5);
+}
+.body{
+  width: 100%;
+  height: 100vh;
+}
+.test img{
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 5s;
+  }
+.controller:active,.controller:hover{
+  transform: rotateY(50deg) rotateX(50deg);
+}
+h1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.infos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 5px grey;
+  font-family: helvetica;
+}
+table{
+  width: 100%;
+  border: 2px solid grey;
+  background-color: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 6px 5px grey;
+}
+td{
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 5px 5px 5px grey,-1px 0px  grey;
+  width: 50%;
+}
+a{
+  text-decoration: none;
+}
